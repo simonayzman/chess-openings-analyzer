@@ -1,0 +1,52 @@
+❯ python testing/benchmark.py 5 speedup_graph_005.png
+[Run count adjusted to 5]
+
+[Speedup graph will saved to testing/speedup_graph_005.png]
+
+SEQUENTIAL
+===========
+
+Run 1:          70.153 seconds
+Run 2:          70.884 seconds
+Run 3:          71.018 seconds
+Run 4:          69.383 seconds
+Run 5:          69.554 seconds
+Average:        70.198 seconds
+
+PARALLEL
+===========
+
+Run 1 (1 threads):      69.956 seconds
+Run 2 (1 threads):      73.578 seconds
+Run 3 (1 threads):      70.905 seconds
+Run 4 (1 threads):      69.28 seconds
+Run 5 (1 threads):      69.421 seconds
+Average:                70.628 seconds
+
+Run 1 (2 threads):      46.041 seconds
+Run 2 (2 threads):      45.962 seconds
+Run 3 (2 threads):      48.492 seconds
+Run 4 (2 threads):      46.21 seconds
+Run 5 (2 threads):      46.081 seconds
+Average:                46.557 seconds
+
+Run 1 (4 threads):      37.443 seconds
+Run 2 (4 threads):      36.839 seconds
+Run 3 (4 threads):      36.841 seconds
+Run 4 (4 threads):      36.809 seconds
+Run 5 (4 threads):      36.906 seconds
+Average:                36.968 seconds
+
+Run 1 (6 threads):      35.675 seconds
+Run 2 (6 threads):      35.388 seconds
+Run 3 (6 threads):      35.523 seconds
+Run 4 (6 threads):      35.82 seconds
+Run 5 (6 threads):      35.512 seconds
+Average:                35.584 seconds
+
+Run 1 (8 threads):      35.263 seconds
+Run 2 (8 threads):      35.224 seconds
+Run 3 (8 threads):      35.011 seconds
+Run 4 (8 threads):      35.381 seconds
+Run 5 (8 threads):      35.025 seconds
+Average:                35.181 seconds
